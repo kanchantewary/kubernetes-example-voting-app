@@ -1,0 +1,20 @@
+  320  vi voting-app-worker.yml
+  321  mv voting-app-worker.yml worker-app-pod.yml
+  322  ls -lrt
+  323  kubectl create -f worker-app-pod.yml
+  324  cp worker-app-pod.yml result-app-pod.yml
+  325  vi rvi result-app-pod.yml
+  326  vi result-app-pod.yml
+  327  kubectl create -f result-app-pod.yml
+  328  cp result-app-pod.yml redis-pod.yml
+  329  vi redis-pod.yml
+  330  kubectl create -f redis-pod.yml
+  331  cp redis-pod.yml postgres-pod.yml
+  332  vi postgres-pod.yml
+  333  kubectl create -f postgres-pod.yml
+  334  kubectl get pods
+  335  cp redis-pod.yml redis-service.yml
+  336  vi redis-service.yml
+  337  ls -lrt
+  338  pwd
+  339  history
